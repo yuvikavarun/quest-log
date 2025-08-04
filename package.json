@@ -1,9 +1,9 @@
 {
-  "name": "questlog-github-page",
+  "name": "quest-log",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://YourGitHubUsername.github.io/YourRepoName",
+  "homepage": "https://yuvikavarun.github.io/quest-log",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
