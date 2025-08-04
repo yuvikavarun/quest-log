@@ -1,0 +1,45 @@
+body {
+    background-color: #2d2d2d;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* This is the key change: a CSS-only pixelated border */
+.pixel-box {
+    background-color: #1e1e1e;
+    border: 4px solid #000000;
+    outline: 4px solid #ffffff;
+    padding: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pixel-button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    background-color: #5f99ef;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 18px;
+    box-shadow: 4px 4px 0px #000;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-align: center;
+}
+
+.pixel-button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000;
+}
